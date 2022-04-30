@@ -3,7 +3,14 @@ auth:
     username: DOCKERHUB_USERNAME
     password: DOCKERHUB_PASSWORD
 images:
-  docker.io/neuvector/controller:5.0.0-b1
-  docker.io/neuvector/enforcer:5.0.0-b1
-  docker.io/neuvector/manager:5.0.0-b1
-  docker.io/neuvector/scanner:latest
+  k8s.gcr.io/kube-apiserver: davidliyutong/kube-apiserver
+  k8s.gcr.io/kube-controller-manager: davidliyutong/kube-controller-manager
+  k8s.gcr.io/kube-scheduler: davidliyutong/kube-scheduler
+  k8s.gcr.io/kube-proxy: davidliyutong/kube-proxy
+  k8s.gcr.io/pause: davidliyutong/pause
+  k8s.gcr.io/etcd: davidliyutong/etcd
+  k8s.gcr.io/coredns/coredns: davidliyutong/coredns
+  k8s.gcr.io/liveness: davidliyutong/liveness
+  k8s.gcr.io/defaultbackend: davidliyutong/defaultbackend
+  k8s.gcr.io/metrics-server/metrics-server: davidliyutong/metrics-server
+  gcr.io/kubebuilder/kube-rbac-proxy: davidliyutong/kube-rbac-proxy
