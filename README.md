@@ -11,7 +11,7 @@ sync k8s.gcr.io docker images to dockerhub or aliyun registry use [aliyun image-
 
 ![githubaction01.png](https://i.loli.net/2021/08/21/TjN76FtngG5Dehf.png)
 
-2。 Add registry to `images:` that you want to sync:
+2. Add registry to `images:` that you want to sync:
 
 format
 ```
