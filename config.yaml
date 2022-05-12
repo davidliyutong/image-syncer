@@ -17,3 +17,5 @@ images:
   k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner: davidliyutong/nfs-subdir-external-provisioner
   gcr.io/k8s-minikube/kicbase: davidliyutong/kicbase
   gcr.io/k8s-minikube/storage-provisioner: davidliyutong/storage-provisioner
+  k8s.gcr.io/ingress-nginx/controller: davidliyutong/ingress-nginx-controller
+  k8s.gcr.io/ingress-nginx/kube-webhook-certgen: davidliyutong/ingress-nginx-kube-webhook-certgen
