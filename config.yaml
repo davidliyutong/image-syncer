@@ -20,3 +20,4 @@ images:
   k8s.gcr.io/ingress-nginx/controller: davidliyutong/ingress-nginx-controller
   k8s.gcr.io/ingress-nginx/kube-webhook-certgen: davidliyutong/ingress-nginx-kube-webhook-certgen
   k8s.gcr.io/defaultbackend-amd64: davidliyutong/ingress-nginx-defaultbackend-amd64
+  ghcr.io/suwayomi/tachidesk: davidliyutong/tachidesk
