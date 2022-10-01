@@ -3,6 +3,7 @@ auth:
     username: DOCKERHUB_USERNAME
     password: DOCKERHUB_PASSWORD
 images:
+  gcr.io/k8s-staging-nfd/node-feature-discovery: davidliyutong/node-feature-discovery
   k8s.gcr.io/kube-apiserver: davidliyutong/kube-apiserver
   k8s.gcr.io/kube-controller-manager: davidliyutong/kube-controller-manager
   k8s.gcr.io/kube-scheduler: davidliyutong/kube-scheduler
